@@ -12,6 +12,10 @@ function Home() {
       <Link to='/nodejs'> <h1>
           Node js course
       </h1></Link>
+
+      <Link to='/nodejs'> <h1>
+          Node js course
+      </h1></Link>
       
       
       
