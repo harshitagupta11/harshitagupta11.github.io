@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react';
-import {BrowserRouter,Route,Link} from 'react-router-dom';
+
 import ReactPlayer from 'react-player';
 
 
@@ -13,7 +13,7 @@ function CourseStructure(props) {
     
 
     useEffect( ()=>{
-      const playlist = courseName=="reactjs"?'PLB97yPrFwo5j60AxzdZVC3dOJvJy4Oxkp':'PLwGdqUZWnOp00IbeN0OtL9dmnasipZ9x8';
+      const playlist = courseName==="reactjs"?'PLB97yPrFwo5j60AxzdZVC3dOJvJy4Oxkp':'PLwGdqUZWnOp00IbeN0OtL9dmnasipZ9x8';
       const playlist_api=`https://www.googleapis.com/youtube/v3/playlistItems?part=contentDetails%2Csnippet&maxResults=40&playlistId=${playlist}&key=AIzaSyArDhBUqhMz9lc3oJXCU7w5t1qaT0WhS4s`
       
       async function fetchData(){
