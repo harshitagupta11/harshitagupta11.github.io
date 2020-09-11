@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "homepage": "https://harshitagupta11.github.io",
+  "homepage": "https://harshitagupta11.github.io/youtube-video-player",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +16,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages  -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
 
